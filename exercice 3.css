@@ -1,0 +1,38 @@
+
+/*Exercice 3*/
+
+#title{
+    width: 600px;
+    text-align: center;
+}
+table{
+    width: 600px;
+ height: 50px;
+}
+table, tr, td{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse : collapse; 
+}
+#bottom{
+    text-align: left;
+    background-color: #aaaeb4;
+}
+.left{
+    text-align: left;
+}
+.date{
+    text-align: right;
+}
+#bold{
+    font-weight: bold;
+}
+.grey{
+    background-color: #aaaeb4;
+}
+.green{
+    background-color: #8cffba;
+
+}
+.red{
+    background-color: #ff616e;
