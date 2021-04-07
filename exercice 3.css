@@ -1,38 +1,45 @@
-
-/*Exercice 3*/
-
-#title{
-    width: 600px;
-    text-align: center;
-}
+/* création de la bordure externe du tableau + fusion des bordures internes du tableau */
 table{
-    width: 600px;
- height: 50px;
+    border: 3px solid #000000;
+    border-collapse: collapse;
 }
-table, tr, td{
-    text-align: center;
-    border: 2px solid black;
-    border-collapse : collapse; 
+/* création des bordures des cellules */
+tr, td, th{
+    border: 1px solid #000000;
 }
-#bottom{
-    text-align: left;
-    background-color: #aaaeb4;
-}
-.left{
-    text-align: left;
-}
+/* définir la largeur, aligner le contenu à droite, création de la marge interne */
 .date{
+    width: 130px;
     text-align: right;
+    padding: 0.5em;
 }
-#bold{
-    font-weight: bold;
-}
+/* couleur de fond en gris */
 .grey{
     background-color: #aaaeb4;
 }
-.green{
-    background-color: #8cffba;
-
+/* création de la marge interne, couleur de fond en gris sur la cellule solde du tableau */
+#bottom{
+    padding: 0.5em;
+    background-color: #aaaeb4;
 }
+/* définir la largeur, centrer le contenu, couleur de fond en vert */
+.green{
+    width: 75px;
+    text-align: center;
+    background-color: #8cffba;
+}
+/*  définir la largeur, centrer le contenu, couleur de fond en rouge */
 .red{
+    width: 75px;
+    text-align: center;
     background-color: #ff616e;
+}
+/*  définir la largeur, création de la marge interne */
+.subject{
+    width: 200px;
+    padding: 0.5em;  
+}
+/* centrer le contenu */
+.center{
+    text-align: center;
+}

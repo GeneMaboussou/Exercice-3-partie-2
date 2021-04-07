@@ -4,59 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="exercice.css">
+    <link rel="stylesheet" type="text/css" href="exercice 3.css">
     <title>Exercice3</title>
 </head>
-<body>
-    
-    <p id="title"> Mon compte Bancaire</p>
-    
+<body> 
     <table>
-        
-        <tr id="bold">
-            <td class="grey">Date</td>
-            <td class="grey">Libellé</td>
-            <td class="green">Crédit</td>
-            <td class="red">Débit</td>
-
+        <caption> Mon compte Bancaire</caption>
+       <thead> 
+        <tr>
+            <th class="grey">Date</th>
+            <th class="grey">Libellé</th>
+            <th class="green">Crédit</th>
+            <th class="red">Débit</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="date">01/05/2021</td>
+            <td class="subject">Paye</td>
+            <td class="center">1500€</td>
+            <td class="center">0</td>
         </tr>
         <tr>
             <td class="date">01/05/2021</td>
-            <td class="left">Paye</td>
-            <td>1500€</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td class="date">01/05/2021</td>
-            <td class="left">Courses de la semaine</td>
-            <td>0€</td>
-            <td>152,30€</td>
-
+            <td class="subject">Courses de la semaine</td>
+            <td class="center">0€</td>
+            <td class="center">152,30€</td>
         </tr>
         <tr>
             <td class="date"> 04/05/2021</td>
-            <td class="left">McDo</td>
-            <td>0€</td>
-            <td>32,40€</td>
+            <td class="subject">McDo</td>
+            <td class="center">0€</td>
+            <td class="center">32,40€</td>
         </tr>
         <tr>
             <td class="date">05/05/2021</td>
-            <td class="left">Loyer</td>
-            <td>0€</td>
-            <td>700€</td>
+            <td class="subject">Loyer</td>
+            <td class="center">0€</td>
+            <td class="center">700€</td>
         </tr>
         <tr>
             <td class="date">05/05/2021</td>
-            <td class="left">Internet</td>
-            <td>0€</td>
-            <td>39,40€</td>
+            <td class="subject">Internet</td>
+            <td class="center">0€</td>
+            <td class="center">39,40€</td>
         </tr>
+        </tbody>
+        <tfoot>
         <tr>
-            <td colspan="2" id="bottom">Solde</td>
-            
-            <td colspan="2" class="green">575,40€</td>
-        </tr>
-
+            <td colspan="2"id="bottom">Solde</td>
+      
+            <td colspan="2"class="green">575,40€</td>
+      </tr>
+    </tfoot>
     </table>
 </body>
 </html>
